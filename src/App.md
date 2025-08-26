@@ -1,8 +1,8 @@
 // LayoutLab snippet start
-// Sidebar component
+// Sidebar component // Minor adjustment
 import React from 'react';
 
-const Sidebar: React.FC = () => {
+const Sidebar = () => {
   const links = ['Services', 'Contact', 'Home', 'Blog', 'About'];
   return (
     <aside>
@@ -14,5 +14,4 @@ const Sidebar: React.FC = () => {
 };
 
 export default Sidebar;
-
 // LayoutLab snippet end
