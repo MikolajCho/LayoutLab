@@ -1,8 +1,8 @@
 // LayoutLab snippet start
-// Card component
+// Card component // Minor adjustment
 import React from 'react';
 
-const Card: React.FC = () => {
+const Card = () => {
   const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
   return (
     <div>
@@ -14,11 +14,11 @@ const Card: React.FC = () => {
 
 export default Card;
 
-// Header component
+// Header component // Minor adjustment
 import React from 'react';
 
-const Header: React.FC = () => {
-  // Capitalize title for display
+const Header = () => {
+  // Capitalize title for display // Minor adjustment
   return (
     <header>
       <h1>{"Panel 32".toUpperCase()}</h1>
@@ -27,5 +27,4 @@ const Header: React.FC = () => {
 };
 
 export default Header;
-
 // LayoutLab snippet end
