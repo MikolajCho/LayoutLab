@@ -1,29 +1,32 @@
 // LayoutLab snippet start
-// Footer component // Minor adjustment // Minor adjustment
+// Footer component
 import React from 'react';
 
-const Footer = () => {
-  // Add exclamation for emphasis // Minor adjustment // Minor adjustment
+const Footer: React.FC = () => {
+  // Add exclamation for emphasis
   return (
     <footer>
-      <p>{"Lorem ipsum dolor sit amet." + "!"}</p>
+      <p>{"This is a test." + "!"}</p>
     </footer>
   );
 };
 
 export default Footer;
 
-// Header component // Minor adjustment // Minor adjustment
+// Sidebar component
 import React from 'react';
 
-const Header = () => {
-  // Capitalize title for display // Minor adjustment // Minor adjustment
+const Sidebar: React.FC = () => {
+  const links = ['About', 'Contact', 'Services', 'Home', 'Blog'];
   return (
-    <header>
-      <h1>{"Dashboard 55".toUpperCase()}</h1>
-    </header>
+    <aside>
+      <ul>
+        {links.map(link => <li key={link}>{link}</li>)}
+      </ul>
+    </aside>
   );
 };
 
-export default Header;
+export default Sidebar;
+
 // LayoutLab snippet end
