@@ -1,123 +1,24 @@
 // LayoutLab snippet start
-// Footer component // Minor adjustment
+// GridLayout component
 import React from 'react';
+import Card from './Card';
 
-const Footer = () => {
-  // Add exclamation for emphasis // Minor adjustment
-  return (
-    <footer>
-      <p>{"Treść przykładowa." + "!"}</p>
-    </footer>
-  );
-};
-
-export default Footer;
-
-// Footer component // Minor adjustment
-import React from 'react';
-
-const Footer = () => {
-  // Add exclamation for emphasis // Minor adjustment
-  return (
-    <footer>
-      <p>{"Random content inside." + "!"}</p>
-    </footer>
-  );
-};
-
-export default Footer;
-
-// Footer component // Minor adjustment
-import React from 'react';
-
-const Footer = () => {
-  // Add exclamation for emphasis // Minor adjustment
-  return (
-    <footer>
-      <p>{"Random content inside." + "!"}</p>
-    </footer>
-  );
-};
-
-export default Footer;
-
-// Card component // Minor adjustment
-import React from 'react';
-
-const Card = () => {
-  const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
+const GridLayout: React.FC = () => {
+  const cards = [{'title': 'Hello World 59', 'content': 'Witaj świecie!'}, {'title': 'Panel 26', 'content': 'Treść przykładowa.'}, {'title': 'Kontakty 15', 'content': 'Click here to continue.'}];
   return (
     <div>
-      <h3>{capitalize("Hello World 12")}</h3>
-      <p>{"Lorem ipsum dolor sit amet."}</p>
+      {cards.map((c, i) => <Card key={i} title={c['title']} content={c['content']} />)}
     </div>
   );
 };
 
-export default Card;
+export default GridLayout;
 
-// Card component // Minor adjustment
+// Sidebar component
 import React from 'react';
 
-const Card = () => {
-  const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
-  return (
-    <div>
-      <h3>{capitalize("Hello World 62")}</h3>
-      <p>{"Random content inside."}</p>
-    </div>
-  );
-};
-
-export default Card;
-
-// Footer component // Minor adjustment
-import React from 'react';
-
-const Footer = () => {
-  // Add exclamation for emphasis // Minor adjustment
-  return (
-    <footer>
-      <p>{"Treść przykładowa." + "!"}</p>
-    </footer>
-  );
-};
-
-export default Footer;
-
-// Header component // Minor adjustment
-import React from 'react';
-
-const Header = () => {
-  // Capitalize title for display // Minor adjustment
-  return (
-    <header>
-      <h1>{"Kontakty 58".toUpperCase()}</h1>
-    </header>
-  );
-};
-
-export default Header;
-
-// Header component // Minor adjustment
-import React from 'react';
-
-const Header = () => {
-  // Capitalize title for display // Minor adjustment
-  return (
-    <header>
-      <h1>{"Hello World 92".toUpperCase()}</h1>
-    </header>
-  );
-};
-
-export default Header;
-
-// Sidebar component // Minor adjustment
-import React from 'react';
-
-const Sidebar = () => {
-  const links = ['Home', 'About', 'Services', 'Blog', 'Contact'];
+const Sidebar: React.FC = () => {
+  const links = ['Services', 'Blog', 'Contact', 'Home', 'About'];
   return (
     <aside>
       <ul>
@@ -129,47 +30,4 @@ const Sidebar = () => {
 
 export default Sidebar;
 
-// Header component // Minor adjustment
-import React from 'react';
-
-const Header = () => {
-  // Capitalize title for display // Minor adjustment
-  return (
-    <header>
-      <h1>{"Informacje 57".toUpperCase()}</h1>
-    </header>
-  );
-};
-
-export default Header;
-
-// Card component // Minor adjustment
-import React from 'react';
-
-const Card = () => {
-  const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
-  return (
-    <div>
-      <h3>{capitalize("Kontakty 82")}</h3>
-      <p>{"This is a test."}</p>
-    </div>
-  );
-};
-
-export default Card;
-
-// Card component // Minor adjustment
-import React from 'react';
-
-const Card = () => {
-  const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
-  return (
-    <div>
-      <h3>{capitalize("Kontakty 50")}</h3>
-      <p>{"Click here to continue."}</p>
-    </div>
-  );
-};
-
-export default Card;
 // LayoutLab snippet end
