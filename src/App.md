@@ -1,46 +1,31 @@
 // LayoutLab snippet start
-// GridLayout component // Minor adjustment
+// Card component
 import React from 'react';
-import Card from './Card';
 
-const GridLayout = () => {
-  const cards = [{'title': 'Dashboard 47', 'content': 'Witaj świecie!'}, {'title': 'Profile 23', 'content': 'This is a test.'}, {'title': 'Welcome 24', 'content': 'Random content inside.'}];
+const Card: React.FC = () => {
+  const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
   return (
     <div>
-      {cards.map((c, i) => <Card key={i} title={c['title']} content={c['content']} />)}
+      <h3>{capitalize("Welcome 78")}</h3>
+      <p>{"Click here to continue."}</p>
     </div>
   );
 };
 
-export default GridLayout;
+export default Card;
 
-// Header component // Minor adjustment
+// Header component
 import React from 'react';
 
-const Header = () => {
-  // Capitalize title for display // Minor adjustment
+const Header: React.FC = () => {
+  // Capitalize title for display
   return (
     <header>
-      <h1>{"Profile 24".toUpperCase()}</h1>
+      <h1>{"Panel 32".toUpperCase()}</h1>
     </header>
   );
 };
 
 export default Header;
 
-// Sidebar component // Minor adjustment
-import React from 'react';
-
-const Sidebar = () => {
-  const links = ['Services', 'Contact', 'Home', 'About', 'Blog'];
-  return (
-    <aside>
-      <ul>
-        {links.map(link => <li key={link}>{link}</li>)}
-      </ul>
-    </aside>
-  );
-};
-
-export default Sidebar;
 // LayoutLab snippet end
