@@ -1,9 +1,9 @@
 // LayoutLab snippet start
-// GridLayout component
+// GridLayout component // Minor adjustment
 import React from 'react';
 import Card from './Card';
 
-const GridLayout: React.FC = () => {
+const GridLayout = () => {
   const cards = [{'title': 'Hello World 59', 'content': 'Witaj świecie!'}, {'title': 'Panel 26', 'content': 'Treść przykładowa.'}, {'title': 'Kontakty 15', 'content': 'Click here to continue.'}];
   return (
     <div>
@@ -14,10 +14,10 @@ const GridLayout: React.FC = () => {
 
 export default GridLayout;
 
-// Sidebar component
+// Sidebar component // Minor adjustment
 import React from 'react';
 
-const Sidebar: React.FC = () => {
+const Sidebar = () => {
   const links = ['Services', 'Blog', 'Contact', 'Home', 'About'];
   return (
     <aside>
@@ -29,5 +29,4 @@ const Sidebar: React.FC = () => {
 };
 
 export default Sidebar;
-
 // LayoutLab snippet end
