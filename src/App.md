@@ -1,5 +1,5 @@
 // LayoutLab snippet start
-// Sidebar component // Minor adjustment
+// Sidebar component // Minor adjustment // Minor adjustment
 import React from 'react';
 
 const Sidebar = () => {
