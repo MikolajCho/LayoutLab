@@ -1,9 +1,9 @@
 // LayoutLab snippet start
-// Footer component
+// Footer component // Minor adjustment
 import React from 'react';
 
-const Footer: React.FC = () => {
-  // Add exclamation for emphasis
+const Footer = () => {
+  // Add exclamation for emphasis // Minor adjustment
   return (
     <footer>
       <p>{"Treść przykładowa." + "!"}</p>
@@ -13,11 +13,11 @@ const Footer: React.FC = () => {
 
 export default Footer;
 
-// Footer component
+// Footer component // Minor adjustment
 import React from 'react';
 
-const Footer: React.FC = () => {
-  // Add exclamation for emphasis
+const Footer = () => {
+  // Add exclamation for emphasis // Minor adjustment
   return (
     <footer>
       <p>{"Random content inside." + "!"}</p>
@@ -27,11 +27,11 @@ const Footer: React.FC = () => {
 
 export default Footer;
 
-// Footer component
+// Footer component // Minor adjustment
 import React from 'react';
 
-const Footer: React.FC = () => {
-  // Add exclamation for emphasis
+const Footer = () => {
+  // Add exclamation for emphasis // Minor adjustment
   return (
     <footer>
       <p>{"Random content inside." + "!"}</p>
@@ -41,10 +41,10 @@ const Footer: React.FC = () => {
 
 export default Footer;
 
-// Card component
+// Card component // Minor adjustment
 import React from 'react';
 
-const Card: React.FC = () => {
+const Card = () => {
   const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
   return (
     <div>
@@ -56,10 +56,10 @@ const Card: React.FC = () => {
 
 export default Card;
 
-// Card component
+// Card component // Minor adjustment
 import React from 'react';
 
-const Card: React.FC = () => {
+const Card = () => {
   const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
   return (
     <div>
@@ -71,11 +71,11 @@ const Card: React.FC = () => {
 
 export default Card;
 
-// Footer component
+// Footer component // Minor adjustment
 import React from 'react';
 
-const Footer: React.FC = () => {
-  // Add exclamation for emphasis
+const Footer = () => {
+  // Add exclamation for emphasis // Minor adjustment
   return (
     <footer>
       <p>{"Treść przykładowa." + "!"}</p>
@@ -85,11 +85,11 @@ const Footer: React.FC = () => {
 
 export default Footer;
 
-// Header component
+// Header component // Minor adjustment
 import React from 'react';
 
-const Header: React.FC = () => {
-  // Capitalize title for display
+const Header = () => {
+  // Capitalize title for display // Minor adjustment
   return (
     <header>
       <h1>{"Kontakty 58".toUpperCase()}</h1>
@@ -99,11 +99,11 @@ const Header: React.FC = () => {
 
 export default Header;
 
-// Header component
+// Header component // Minor adjustment
 import React from 'react';
 
-const Header: React.FC = () => {
-  // Capitalize title for display
+const Header = () => {
+  // Capitalize title for display // Minor adjustment
   return (
     <header>
       <h1>{"Hello World 92".toUpperCase()}</h1>
@@ -113,10 +113,10 @@ const Header: React.FC = () => {
 
 export default Header;
 
-// Sidebar component
+// Sidebar component // Minor adjustment
 import React from 'react';
 
-const Sidebar: React.FC = () => {
+const Sidebar = () => {
   const links = ['Home', 'About', 'Services', 'Blog', 'Contact'];
   return (
     <aside>
@@ -129,11 +129,11 @@ const Sidebar: React.FC = () => {
 
 export default Sidebar;
 
-// Header component
+// Header component // Minor adjustment
 import React from 'react';
 
-const Header: React.FC = () => {
-  // Capitalize title for display
+const Header = () => {
+  // Capitalize title for display // Minor adjustment
   return (
     <header>
       <h1>{"Informacje 57".toUpperCase()}</h1>
@@ -143,10 +143,10 @@ const Header: React.FC = () => {
 
 export default Header;
 
-// Card component
+// Card component // Minor adjustment
 import React from 'react';
 
-const Card: React.FC = () => {
+const Card = () => {
   const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
   return (
     <div>
@@ -158,10 +158,10 @@ const Card: React.FC = () => {
 
 export default Card;
 
-// Card component
+// Card component // Minor adjustment
 import React from 'react';
 
-const Card: React.FC = () => {
+const Card = () => {
   const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
   return (
     <div>
@@ -172,5 +172,4 @@ const Card: React.FC = () => {
 };
 
 export default Card;
-
 // LayoutLab snippet end
