@@ -1,9 +1,9 @@
 // LayoutLab snippet start
-// GridLayout component
+// GridLayout component // Minor adjustment
 import React from 'react';
 import Card from './Card';
 
-const GridLayout: React.FC = () => {
+const GridLayout = () => {
   const cards = [{'title': 'Dashboard 47', 'content': 'Witaj świecie!'}, {'title': 'Profile 23', 'content': 'This is a test.'}, {'title': 'Welcome 24', 'content': 'Random content inside.'}];
   return (
     <div>
@@ -14,11 +14,11 @@ const GridLayout: React.FC = () => {
 
 export default GridLayout;
 
-// Header component
+// Header component // Minor adjustment
 import React from 'react';
 
-const Header: React.FC = () => {
-  // Capitalize title for display
+const Header = () => {
+  // Capitalize title for display // Minor adjustment
   return (
     <header>
       <h1>{"Profile 24".toUpperCase()}</h1>
@@ -28,10 +28,10 @@ const Header: React.FC = () => {
 
 export default Header;
 
-// Sidebar component
+// Sidebar component // Minor adjustment
 import React from 'react';
 
-const Sidebar: React.FC = () => {
+const Sidebar = () => {
   const links = ['Services', 'Contact', 'Home', 'About', 'Blog'];
   return (
     <aside>
@@ -43,5 +43,4 @@ const Sidebar: React.FC = () => {
 };
 
 export default Sidebar;
-
 // LayoutLab snippet end
