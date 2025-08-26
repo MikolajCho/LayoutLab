@@ -1,5 +1,5 @@
 // LayoutLab snippet start
-// Sidebar component // Minor adjustment // Minor adjustment
+// Sidebar component // Minor adjustment // Minor adjustment // Minor adjustment
 import React from 'react';
 
 const Sidebar = () => {
@@ -15,7 +15,7 @@ const Sidebar = () => {
 
 export default Sidebar;
 
-// Card component // Minor adjustment // Minor adjustment
+// Card component // Minor adjustment // Minor adjustment // Minor adjustment
 import React from 'react';
 
 const Card = () => {
@@ -30,11 +30,11 @@ const Card = () => {
 
 export default Card;
 
-// Footer component // Minor adjustment // Minor adjustment
+// Footer component // Minor adjustment // Minor adjustment // Minor adjustment
 import React from 'react';
 
 const Footer = () => {
-  // Add exclamation for emphasis // Minor adjustment // Minor adjustment
+  // Add exclamation for emphasis // Minor adjustment // Minor adjustment // Minor adjustment
   return (
     <footer>
       <p>{"This is a test." + "!"}</p>
@@ -44,7 +44,7 @@ const Footer = () => {
 
 export default Footer;
 
-// Sidebar component // Minor adjustment // Minor adjustment
+// Sidebar component // Minor adjustment // Minor adjustment // Minor adjustment
 import React from 'react';
 
 const Sidebar = () => {
