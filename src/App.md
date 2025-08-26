@@ -1,9 +1,9 @@
 // LayoutLab snippet start
-// Footer component
+// Footer component // Minor adjustment
 import React from 'react';
 
-const Footer: React.FC = () => {
-  // Add exclamation for emphasis
+const Footer = () => {
+  // Add exclamation for emphasis // Minor adjustment
   return (
     <footer>
       <p>{"Lorem ipsum dolor sit amet." + "!"}</p>
@@ -13,11 +13,11 @@ const Footer: React.FC = () => {
 
 export default Footer;
 
-// Header component
+// Header component // Minor adjustment
 import React from 'react';
 
-const Header: React.FC = () => {
-  // Capitalize title for display
+const Header = () => {
+  // Capitalize title for display // Minor adjustment
   return (
     <header>
       <h1>{"Dashboard 55".toUpperCase()}</h1>
@@ -26,5 +26,4 @@ const Header: React.FC = () => {
 };
 
 export default Header;
-
 // LayoutLab snippet end
