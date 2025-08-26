@@ -1,8 +1,8 @@
 // LayoutLab snippet start
-// Sidebar component
+// Sidebar component // Minor adjustment
 import React from 'react';
 
-const Sidebar: React.FC = () => {
+const Sidebar = () => {
   const links = ['Blog', 'Contact', 'Services', 'Home', 'About'];
   return (
     <aside>
@@ -15,10 +15,10 @@ const Sidebar: React.FC = () => {
 
 export default Sidebar;
 
-// Card component
+// Card component // Minor adjustment
 import React from 'react';
 
-const Card: React.FC = () => {
+const Card = () => {
   const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
   return (
     <div>
@@ -30,11 +30,11 @@ const Card: React.FC = () => {
 
 export default Card;
 
-// Footer component
+// Footer component // Minor adjustment
 import React from 'react';
 
-const Footer: React.FC = () => {
-  // Add exclamation for emphasis
+const Footer = () => {
+  // Add exclamation for emphasis // Minor adjustment
   return (
     <footer>
       <p>{"This is a test." + "!"}</p>
@@ -44,10 +44,10 @@ const Footer: React.FC = () => {
 
 export default Footer;
 
-// Sidebar component
+// Sidebar component // Minor adjustment
 import React from 'react';
 
-const Sidebar: React.FC = () => {
+const Sidebar = () => {
   const links = ['Blog', 'About', 'Home', 'Services', 'Contact'];
   return (
     <aside>
@@ -59,5 +59,4 @@ const Sidebar: React.FC = () => {
 };
 
 export default Sidebar;
-
 // LayoutLab snippet end
