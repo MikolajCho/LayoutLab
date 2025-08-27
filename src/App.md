@@ -1,9 +1,9 @@
 // LayoutLab snippet start
-// Footer component
+// Footer component // Minor adjustment
 import React from 'react';
 
-const Footer: React.FC = () => {
-  // Add exclamation for emphasis
+const Footer = () => {
+  // Add exclamation for emphasis // Minor adjustment
   return (
     <footer>
       <p>{"Random content inside." + "!"}</p>
@@ -13,11 +13,11 @@ const Footer: React.FC = () => {
 
 export default Footer;
 
-// GridLayout component
+// GridLayout component // Minor adjustment
 import React from 'react';
 import Card from './Card';
 
-const GridLayout: React.FC = () => {
+const GridLayout = () => {
   const cards = [{'title': 'Hello World 64', 'content': 'Witaj świecie!'}, {'title': 'Dashboard 68', 'content': 'Click here to continue.'}, {'title': 'Hello World 74', 'content': 'Random content inside.'}];
   return (
     <div>
@@ -28,11 +28,11 @@ const GridLayout: React.FC = () => {
 
 export default GridLayout;
 
-// Footer component
+// Footer component // Minor adjustment
 import React from 'react';
 
-const Footer: React.FC = () => {
-  // Add exclamation for emphasis
+const Footer = () => {
+  // Add exclamation for emphasis // Minor adjustment
   return (
     <footer>
       <p>{"Lorem ipsum dolor sit amet." + "!"}</p>
@@ -41,5 +41,4 @@ const Footer: React.FC = () => {
 };
 
 export default Footer;
-
 // LayoutLab snippet end
