@@ -1,9 +1,9 @@
 // LayoutLab snippet start
-// GridLayout component
+// GridLayout component // Minor adjustment
 import React from 'react';
 import Card from './Card';
 
-const GridLayout: React.FC = () => {
+const GridLayout = () => {
   const cards = [{'title': 'Kontakty 85', 'content': 'Click here to continue.'}, {'title': 'Dashboard 69', 'content': 'Witaj świecie!'}, {'title': 'Dashboard 56', 'content': 'This is a test.'}];
   return (
     <div>
@@ -14,11 +14,11 @@ const GridLayout: React.FC = () => {
 
 export default GridLayout;
 
-// GridLayout component
+// GridLayout component // Minor adjustment
 import React from 'react';
 import Card from './Card';
 
-const GridLayout: React.FC = () => {
+const GridLayout = () => {
   const cards = [{'title': 'Hello World 95', 'content': 'Click here to continue.'}, {'title': 'Hello World 30', 'content': 'Treść przykładowa.'}, {'title': 'Informacje 36', 'content': 'Random content inside.'}];
   return (
     <div>
@@ -29,10 +29,10 @@ const GridLayout: React.FC = () => {
 
 export default GridLayout;
 
-// Card component
+// Card component // Minor adjustment
 import React from 'react';
 
-const Card: React.FC = () => {
+const Card = () => {
   const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
   return (
     <div>
@@ -43,5 +43,4 @@ const Card: React.FC = () => {
 };
 
 export default Card;
-
 // LayoutLab snippet end
