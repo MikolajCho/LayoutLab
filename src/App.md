@@ -1,127 +1,23 @@
 // LayoutLab snippet start
-// GridLayout component // Minor adjustment // Minor adjustment
-import React from 'react';
-import Card from './Card';
-
-const GridLayout = () => {
-  const cards = [{'title': 'Hello World 89', 'content': 'Treść przykładowa.'}, {'title': 'Dashboard 20', 'content': 'Witaj świecie!'}, {'title': 'Panel 52', 'content': 'Click here to continue.'}];
-  return (
-    <div>
-      {cards.map((c, i) => <Card key={i} title={c['title']} content={c['content']} />)}
-    </div>
-  );
-};
-
-export default GridLayout;
-
-// Header component // Minor adjustment // Minor adjustment
+// Header component
 import React from 'react';
 
-const Header = () => {
-  // Capitalize title for display // Minor adjustment // Minor adjustment
+const Header: React.FC = () => {
+  // Capitalize title for display
   return (
     <header>
-      <h1>{"Kontakty 51".toUpperCase()}</h1>
+      <h1>{"Kontakty 24".toUpperCase()}</h1>
     </header>
   );
 };
 
 export default Header;
 
-// Card component // Minor adjustment // Minor adjustment
+// Sidebar component
 import React from 'react';
 
-const Card = () => {
-  const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
-  return (
-    <div>
-      <h3>{capitalize("Profile 67")}</h3>
-      <p>{"Treść przykładowa."}</p>
-    </div>
-  );
-};
-
-export default Card;
-
-// GridLayout component // Minor adjustment // Minor adjustment
-import React from 'react';
-import Card from './Card';
-
-const GridLayout = () => {
-  const cards = [{'title': 'Dashboard 70', 'content': 'Witaj świecie!'}, {'title': 'Hello World 55', 'content': 'Random content inside.'}, {'title': 'Informacje 3', 'content': 'Lorem ipsum dolor sit amet.'}];
-  return (
-    <div>
-      {cards.map((c, i) => <Card key={i} title={c['title']} content={c['content']} />)}
-    </div>
-  );
-};
-
-export default GridLayout;
-
-// Card component // Minor adjustment // Minor adjustment
-import React from 'react';
-
-const Card = () => {
-  const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
-  return (
-    <div>
-      <h3>{capitalize("Welcome 15")}</h3>
-      <p>{"Treść przykładowa."}</p>
-    </div>
-  );
-};
-
-export default Card;
-
-// Card component // Minor adjustment // Minor adjustment
-import React from 'react';
-
-const Card = () => {
-  const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
-  return (
-    <div>
-      <h3>{capitalize("Hello World 1")}</h3>
-      <p>{"Witaj świecie!"}</p>
-    </div>
-  );
-};
-
-export default Card;
-
-// Card component // Minor adjustment // Minor adjustment
-import React from 'react';
-
-const Card = () => {
-  const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
-  return (
-    <div>
-      <h3>{capitalize("Hello World 50")}</h3>
-      <p>{"Click here to continue."}</p>
-    </div>
-  );
-};
-
-export default Card;
-
-// Footer component // Minor adjustment // Minor adjustment
-import React from 'react';
-
-const Footer = () => {
-  // Add exclamation for emphasis // Minor adjustment // Minor adjustment
-  return (
-    <footer>
-      <p>{"Lorem ipsum dolor sit amet." + "!"}</p>
-    </footer>
-  );
-};
-
-export default Footer;
-
-// Sidebar component // Minor adjustment // Minor adjustment
-import React from 'react';
-
-const Sidebar = () => {
-  const links = ['Services', 'About', 'Home', 'Blog', 'Contact'];
+const Sidebar: React.FC = () => {
+  const links = ['Blog', 'About', 'Services', 'Home', 'Contact'];
   return (
     <aside>
       <ul>
@@ -133,18 +29,19 @@ const Sidebar = () => {
 
 export default Sidebar;
 
-// Card component // Minor adjustment // Minor adjustment
+// GridLayout component
 import React from 'react';
+import Card from './Card';
 
-const Card = () => {
-  const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
+const GridLayout: React.FC = () => {
+  const cards = [{'title': 'Welcome 96', 'content': 'Lorem ipsum dolor sit amet.'}, {'title': 'Dashboard 79', 'content': 'Treść przykładowa.'}, {'title': 'Welcome 98', 'content': 'Random content inside.'}];
   return (
     <div>
-      <h3>{capitalize("Kontakty 17")}</h3>
-      <p>{"Witaj świecie!"}</p>
+      {cards.map((c, i) => <Card key={i} title={c['title']} content={c['content']} />)}
     </div>
   );
 };
 
-export default Card;
+export default GridLayout;
+
 // LayoutLab snippet end
