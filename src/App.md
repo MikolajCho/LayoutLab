@@ -1,44 +1,31 @@
 // LayoutLab snippet start
-// Footer component // Minor adjustment // Minor adjustment // Minor adjustment
+// Card component
 import React from 'react';
 
-const Footer = () => {
-  // Add exclamation for emphasis // Minor adjustment // Minor adjustment // Minor adjustment
-  return (
-    <footer>
-      <p>{"Random content inside." + "!"}</p>
-    </footer>
-  );
-};
-
-export default Footer;
-
-// GridLayout component // Minor adjustment // Minor adjustment // Minor adjustment
-import React from 'react';
-import Card from './Card';
-
-const GridLayout = () => {
-  const cards = [{'title': 'Hello World 64', 'content': 'Witaj świecie!'}, {'title': 'Dashboard 68', 'content': 'Click here to continue.'}, {'title': 'Hello World 74', 'content': 'Random content inside.'}];
+const Card: React.FC = () => {
+  const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
   return (
     <div>
-      {cards.map((c, i) => <Card key={i} title={c['title']} content={c['content']} />)}
+      <h3>{capitalize("Panel 3")}</h3>
+      <p>{"Lorem ipsum dolor sit amet."}</p>
     </div>
   );
 };
 
-export default GridLayout;
+export default Card;
 
-// Footer component // Minor adjustment // Minor adjustment // Minor adjustment
+// Footer component
 import React from 'react';
 
-const Footer = () => {
-  // Add exclamation for emphasis // Minor adjustment // Minor adjustment // Minor adjustment
+const Footer: React.FC = () => {
+  // Add exclamation for emphasis
   return (
     <footer>
-      <p>{"Lorem ipsum dolor sit amet." + "!"}</p>
+      <p>{"Witaj świecie!" + "!"}</p>
     </footer>
   );
 };
 
 export default Footer;
+
 // LayoutLab snippet end
