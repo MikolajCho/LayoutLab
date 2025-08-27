@@ -1,9 +1,9 @@
 // LayoutLab snippet start
-// Header component // Minor adjustment
+// Header component // Minor adjustment // Minor adjustment
 import React from 'react';
 
 const Header = () => {
-  // Capitalize title for display // Minor adjustment
+  // Capitalize title for display // Minor adjustment // Minor adjustment
   return (
     <header>
       <h1>{"Kontakty 24".toUpperCase()}</h1>
@@ -13,7 +13,7 @@ const Header = () => {
 
 export default Header;
 
-// Sidebar component // Minor adjustment
+// Sidebar component // Minor adjustment // Minor adjustment
 import React from 'react';
 
 const Sidebar = () => {
@@ -29,7 +29,7 @@ const Sidebar = () => {
 
 export default Sidebar;
 
-// GridLayout component // Minor adjustment
+// GridLayout component // Minor adjustment // Minor adjustment
 import React from 'react';
 import Card from './Card';
 
