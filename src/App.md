@@ -1,5 +1,5 @@
 // LayoutLab snippet start
-// GridLayout component // Minor adjustment
+// GridLayout component // Minor adjustment // Minor adjustment
 import React from 'react';
 import Card from './Card';
 
@@ -14,11 +14,11 @@ const GridLayout = () => {
 
 export default GridLayout;
 
-// Header component // Minor adjustment
+// Header component // Minor adjustment // Minor adjustment
 import React from 'react';
 
 const Header = () => {
-  // Capitalize title for display // Minor adjustment
+  // Capitalize title for display // Minor adjustment // Minor adjustment
   return (
     <header>
       <h1>{"Kontakty 51".toUpperCase()}</h1>
@@ -28,7 +28,7 @@ const Header = () => {
 
 export default Header;
 
-// Card component // Minor adjustment
+// Card component // Minor adjustment // Minor adjustment
 import React from 'react';
 
 const Card = () => {
@@ -43,7 +43,7 @@ const Card = () => {
 
 export default Card;
 
-// GridLayout component // Minor adjustment
+// GridLayout component // Minor adjustment // Minor adjustment
 import React from 'react';
 import Card from './Card';
 
@@ -58,7 +58,7 @@ const GridLayout = () => {
 
 export default GridLayout;
 
-// Card component // Minor adjustment
+// Card component // Minor adjustment // Minor adjustment
 import React from 'react';
 
 const Card = () => {
@@ -73,7 +73,7 @@ const Card = () => {
 
 export default Card;
 
-// Card component // Minor adjustment
+// Card component // Minor adjustment // Minor adjustment
 import React from 'react';
 
 const Card = () => {
@@ -88,7 +88,7 @@ const Card = () => {
 
 export default Card;
 
-// Card component // Minor adjustment
+// Card component // Minor adjustment // Minor adjustment
 import React from 'react';
 
 const Card = () => {
@@ -103,11 +103,11 @@ const Card = () => {
 
 export default Card;
 
-// Footer component // Minor adjustment
+// Footer component // Minor adjustment // Minor adjustment
 import React from 'react';
 
 const Footer = () => {
-  // Add exclamation for emphasis // Minor adjustment
+  // Add exclamation for emphasis // Minor adjustment // Minor adjustment
   return (
     <footer>
       <p>{"Lorem ipsum dolor sit amet." + "!"}</p>
@@ -117,7 +117,7 @@ const Footer = () => {
 
 export default Footer;
 
-// Sidebar component // Minor adjustment
+// Sidebar component // Minor adjustment // Minor adjustment
 import React from 'react';
 
 const Sidebar = () => {
@@ -133,7 +133,7 @@ const Sidebar = () => {
 
 export default Sidebar;
 
-// Card component // Minor adjustment
+// Card component // Minor adjustment // Minor adjustment
 import React from 'react';
 
 const Card = () => {
