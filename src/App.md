@@ -1,9 +1,9 @@
 // LayoutLab snippet start
-// GridLayout component
+// GridLayout component // Minor adjustment
 import React from 'react';
 import Card from './Card';
 
-const GridLayout: React.FC = () => {
+const GridLayout = () => {
   const cards = [{'title': 'Hello World 89', 'content': 'Treść przykładowa.'}, {'title': 'Dashboard 20', 'content': 'Witaj świecie!'}, {'title': 'Panel 52', 'content': 'Click here to continue.'}];
   return (
     <div>
@@ -14,11 +14,11 @@ const GridLayout: React.FC = () => {
 
 export default GridLayout;
 
-// Header component
+// Header component // Minor adjustment
 import React from 'react';
 
-const Header: React.FC = () => {
-  // Capitalize title for display
+const Header = () => {
+  // Capitalize title for display // Minor adjustment
   return (
     <header>
       <h1>{"Kontakty 51".toUpperCase()}</h1>
@@ -28,10 +28,10 @@ const Header: React.FC = () => {
 
 export default Header;
 
-// Card component
+// Card component // Minor adjustment
 import React from 'react';
 
-const Card: React.FC = () => {
+const Card = () => {
   const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
   return (
     <div>
@@ -43,11 +43,11 @@ const Card: React.FC = () => {
 
 export default Card;
 
-// GridLayout component
+// GridLayout component // Minor adjustment
 import React from 'react';
 import Card from './Card';
 
-const GridLayout: React.FC = () => {
+const GridLayout = () => {
   const cards = [{'title': 'Dashboard 70', 'content': 'Witaj świecie!'}, {'title': 'Hello World 55', 'content': 'Random content inside.'}, {'title': 'Informacje 3', 'content': 'Lorem ipsum dolor sit amet.'}];
   return (
     <div>
@@ -58,10 +58,10 @@ const GridLayout: React.FC = () => {
 
 export default GridLayout;
 
-// Card component
+// Card component // Minor adjustment
 import React from 'react';
 
-const Card: React.FC = () => {
+const Card = () => {
   const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
   return (
     <div>
@@ -73,10 +73,10 @@ const Card: React.FC = () => {
 
 export default Card;
 
-// Card component
+// Card component // Minor adjustment
 import React from 'react';
 
-const Card: React.FC = () => {
+const Card = () => {
   const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
   return (
     <div>
@@ -88,10 +88,10 @@ const Card: React.FC = () => {
 
 export default Card;
 
-// Card component
+// Card component // Minor adjustment
 import React from 'react';
 
-const Card: React.FC = () => {
+const Card = () => {
   const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
   return (
     <div>
@@ -103,11 +103,11 @@ const Card: React.FC = () => {
 
 export default Card;
 
-// Footer component
+// Footer component // Minor adjustment
 import React from 'react';
 
-const Footer: React.FC = () => {
-  // Add exclamation for emphasis
+const Footer = () => {
+  // Add exclamation for emphasis // Minor adjustment
   return (
     <footer>
       <p>{"Lorem ipsum dolor sit amet." + "!"}</p>
@@ -117,10 +117,10 @@ const Footer: React.FC = () => {
 
 export default Footer;
 
-// Sidebar component
+// Sidebar component // Minor adjustment
 import React from 'react';
 
-const Sidebar: React.FC = () => {
+const Sidebar = () => {
   const links = ['Services', 'About', 'Home', 'Blog', 'Contact'];
   return (
     <aside>
@@ -133,10 +133,10 @@ const Sidebar: React.FC = () => {
 
 export default Sidebar;
 
-// Card component
+// Card component // Minor adjustment
 import React from 'react';
 
-const Card: React.FC = () => {
+const Card = () => {
   const capitalize = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
   return (
     <div>
@@ -147,5 +147,4 @@ const Card: React.FC = () => {
 };
 
 export default Card;
-
 // LayoutLab snippet end
